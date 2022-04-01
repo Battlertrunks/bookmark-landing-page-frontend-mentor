@@ -8,8 +8,8 @@ const DownloadSection = () => {
     <section className="DownloadSection">
       <h2>Download the extention</h2>
       <p>
-        Our powerful search feature will help you find saved sites in no time at
-        all. No need to trawl through all of your bookmarks.
+        We’ve got more browsers in the pipeline. Please do let us know if you’ve
+        got a favourite you’d like us to prioritize.
       </p>
       <ul>
         <li>
