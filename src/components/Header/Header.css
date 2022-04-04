@@ -16,3 +16,23 @@
 .Header button img {
   width: 25px;
 }
+
+@media only screen and (min-width: 1440px) {
+  .Header {
+    margin: 0 100px;
+  }
+
+  .Header button {
+    display: none;
+  }
+
+  .Header ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .Header li {
+    display: inline;
+    margin: 0 20px;
+  }
+}

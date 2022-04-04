@@ -12,6 +12,20 @@ const Header = () => {
       <button>
         <img src={hamburger} alt="dropdown navigation icon" />
       </button>
+      <ul>
+        <li>
+          <a href="#">Features</a>
+        </li>
+        <li>
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Login</a>
+        </li>
+      </ul>
     </header>
   );
 };
