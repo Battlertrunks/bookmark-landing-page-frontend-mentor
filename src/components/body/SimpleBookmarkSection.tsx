@@ -15,10 +15,10 @@ const SimpleBookmarkSection = () => {
       </p>
       <ul>
         <li>
-          <button>Get it on Chrome</button>
+          <button className="chrome-btn">Get it on Chrome</button>
         </li>
         <li>
-          <button>Get it on Firefox</button>
+          <button className="firefox-btn">Get it on Firefox</button>
         </li>
       </ul>
     </section>

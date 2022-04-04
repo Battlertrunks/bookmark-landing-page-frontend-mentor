@@ -32,3 +32,20 @@
 .SimpleBookmarkSection li {
   margin: 20px 10px;
 }
+
+.SimpleBookmarkSection button {
+  width: 150px;
+  padding: 15px 0;
+  box-shadow: 0 5px 10px rgba(153, 153, 153, 0.534);
+  border: none;
+  border-radius: 5px;
+}
+
+.SimpleBookmarkSection .chrome-btn {
+  background-color: hsl(231, 69%, 60%);
+  color: #fff;
+}
+
+.SimpleBookmarkSection .firefox-btn {
+  background-color: rgb(248, 248, 248);
+}

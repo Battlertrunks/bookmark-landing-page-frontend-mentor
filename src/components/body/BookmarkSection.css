@@ -1,0 +1,26 @@
+.BookmarkSection {
+  margin-bottom: 175px;
+}
+
+.BookmarkSection .img-container {
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.BookmarkSection img {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.BookmarkSection .blue-background {
+  height: 200px;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  top: 16%;
+  right: 20%;
+  left: -200px;
+  height: 100%;
+  z-index: -1;
+  border-radius: 140px;
+}

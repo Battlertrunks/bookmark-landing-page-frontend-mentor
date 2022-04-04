@@ -4,9 +4,9 @@ import featuresTab from "../../bookmark-landing-page-master/images/illustration-
 const BookmarkSection = () => {
   return (
     <section className="BookmarkSection">
-      <div>
+      <div className="img-container">
         <img src={featuresTab} alt="Features tab" />
-        <div />
+        <div className="blue-background" />
       </div>
       <h2>Bookmark in one click</h2>
       <p>

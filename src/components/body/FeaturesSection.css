@@ -1,0 +1,40 @@
+.FeaturesSection {
+  margin-top: 175px;
+}
+
+.FeaturesSection ul {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.FeaturesSection li {
+  margin: 0 25px;
+  border-top: 1px rgb(202, 202, 202) solid;
+}
+
+.FeaturesSection li:last-child {
+  border-bottom: 1px rgb(202, 202, 202) solid;
+}
+
+.FeaturesSection button {
+  padding: 20px 0;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+/* .FeaturesSection button:hover {
+  border-bottom: 2px hsl(0, 94%, 66%) solid;
+  outline-offset: -2px;
+} */
+
+.FeaturesSection button:hover::after {
+  content: "";
+  height: 3px;
+  width: 90%;
+  background-color: hsl(0, 94%, 66%);
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  transition: all 0.5s ease-out;
+}
