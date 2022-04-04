@@ -1,0 +1,18 @@
+.PageBody {
+  text-align: center;
+}
+
+.PageBody h2 {
+  font-size: 26px;
+  margin: 20px 20px;
+  margin-top: 50px;
+}
+
+.PageBody p {
+  margin: 0 25px;
+}
+
+.PageBody ul {
+  list-style: none;
+  padding: 0;
+}

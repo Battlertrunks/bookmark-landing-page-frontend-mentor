@@ -4,9 +4,9 @@ import tabletImg from "../../bookmark-landing-page-master/images/illustration-he
 const SimpleBookmarkSection = () => {
   return (
     <section className="SimpleBookmarkSection">
-      <div>
+      <div className="img-container">
         <img src={tabletImg} alt="image of a tablet showing" />
-        <div />
+        <div className="blue-background" />
       </div>
       <h2>A Simple Bookmark Manager</h2>
       <p>
