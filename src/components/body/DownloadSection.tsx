@@ -16,19 +16,25 @@ const DownloadSection = () => {
           <img src={googleLogo} alt="Google's logo" />
           <h3>Add to Chrome</h3>
           <p>Minimum version 6.2</p>
-          <button>Add & Install Extension</button>
+          <div className="btn-container">
+            <button>Add & Install Extension</button>
+          </div>
         </li>
         <li>
           <img src={firefoxLogo} alt="Firefox's logo" />
           <h3>Add to Firefox</h3>
           <p>Minimum version 5.5</p>
-          <button>Add & Install Extension</button>
+          <div className="btn-container">
+            <button>Add & Install Extension</button>
+          </div>
         </li>
         <li>
           <img src={operaLogo} alt="Opera's logo" />
           <h3>Add to Opera</h3>
           <p>Minimum version 4.6</p>
-          <button>Add & Install Extension</button>
+          <div className="btn-container">
+            <button>Add & Install Extension</button>
+          </div>
         </li>
       </ul>
     </section>

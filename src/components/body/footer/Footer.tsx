@@ -1,4 +1,4 @@
-import logo from "../../../bookmark-landing-page-master/images/logo-bookmark.svg";
+import logo from "../../../bookmark-landing-page-master/images/logo-bookmark_white.svg";
 import facebookIcon from "../../../bookmark-landing-page-master/images/icon-facebook.svg";
 import twitterIcon from "../../../bookmark-landing-page-master/images/icon-twitter.svg";
 
@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="#">Contact</a>
         </li>
       </ul>
-      <ul>
+      <ul className="social-media-container">
         <li>
           <img src={facebookIcon} alt="Facebook page link" />
         </li>

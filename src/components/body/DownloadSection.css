@@ -1,0 +1,37 @@
+.DownloadSection {
+  margin-bottom: 175px;
+}
+
+.DownloadSection li {
+  box-shadow: 0 10px 10px rgba(214, 214, 214, 0.418);
+  background-color: #fff;
+  margin: 25px auto;
+  width: 275px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+
+.DownloadSection li h3 {
+  margin: 0;
+  margin-top: 30px;
+}
+
+.DownloadSection li p {
+  margin: 5px 0;
+}
+
+.DownloadSection .btn-container {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 4px #eee dotted;
+}
+
+.DownloadSection button {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: hsl(231, 69%, 60%);
+  padding: 15px 0;
+  width: 80%;
+}

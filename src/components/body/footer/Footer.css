@@ -1,0 +1,26 @@
+.Footer {
+  background-color: hsl(229, 31%, 21%);
+  text-align: center;
+  padding: 25px 0;
+}
+
+.Footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer li {
+  margin: 30px 0;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.Footer .social-media-container * {
+  display: inline;
+  margin: 0 10px;
+  margin-top: 25px;
+}

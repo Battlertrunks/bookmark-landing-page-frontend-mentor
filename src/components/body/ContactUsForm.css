@@ -1,0 +1,44 @@
+.ContactUsForm {
+  margin-top: 200px;
+  padding: 50px 0;
+  background-color: hsl(231, 69%, 60%);
+  color: #fff;
+}
+
+.ContactUsForm .opening-text {
+  letter-spacing: 5px;
+  margin: 5px 0;
+}
+
+.ContactUsForm .title-heading {
+  margin: 0;
+}
+
+.ContactUsForm div {
+  margin: 0 50px;
+  margin-top: 30px;
+}
+
+.ContactUsForm input,
+.ContactUsForm button {
+  padding: 15px 0;
+  border-radius: 5px;
+}
+
+.ContactUsForm input {
+  width: 100%;
+  border: none;
+}
+
+.ContactUsForm input::placeholder {
+  color: rgb(199, 199, 199);
+}
+
+.ContactUsForm button {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  color: #fff;
+  border: none;
+  background-color: hsl(0, 94%, 66%);
+}
