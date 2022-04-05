@@ -24,3 +24,22 @@
   z-index: -1;
   border-radius: 140px;
 }
+
+@media only screen and (min-width: 1440px) {
+  .BookmarkSection {
+    display: flex;
+  }
+
+  .BookmarkSection .img-container {
+    flex: 1.25;
+  }
+
+  .BookmarkSection .content-container {
+    flex: 1;
+    text-align: left;
+  }
+
+  .BookmarkSection .blue-background {
+    left: -100%;
+  }
+}

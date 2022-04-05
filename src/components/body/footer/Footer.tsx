@@ -7,20 +7,22 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="Footer">
-      <h2>
-        <img src={logo} alt="Footer company logo." />
-      </h2>
-      <ul>
-        <li>
-          <a href="#">Features</a>
-        </li>
-        <li>
-          <a href="#">Pricing</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
+      <div>
+        <h2>
+          <img src={logo} alt="Footer company logo." />
+        </h2>
+        <ul>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
       <ul className="social-media-container">
         <li>
           <img src={facebookIcon} alt="Facebook page link" />

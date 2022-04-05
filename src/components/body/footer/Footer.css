@@ -24,3 +24,29 @@
   margin: 0 10px;
   margin-top: 25px;
 }
+
+@media only screen and (min-width: 1440px) {
+  .Footer {
+    padding: 0 100px;
+    justify-content: space-between;
+  }
+
+  .Footer,
+  .Footer ul,
+  .Footer div {
+    display: flex;
+    align-items: center;
+  }
+
+  .Footer li {
+    margin: 15px 0;
+  }
+
+  .Footer div * {
+    margin-right: 20px;
+  }
+
+  .Footer .social-media-container * {
+    margin-top: 0;
+  }
+}

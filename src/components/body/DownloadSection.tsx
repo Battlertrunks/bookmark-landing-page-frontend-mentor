@@ -7,7 +7,7 @@ const DownloadSection = () => {
   return (
     <section className="DownloadSection">
       <h2>Download the extention</h2>
-      <p>
+      <p className="description">
         We’ve got more browsers in the pipeline. Please do let us know if you’ve
         got a favourite you’d like us to prioritize.
       </p>

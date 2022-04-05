@@ -42,3 +42,24 @@
   border: none;
   background-color: hsl(0, 94%, 66%);
 }
+
+@media only screen and (min-width: 1440px) {
+  .ContactUsForm input,
+  .ContactUsForm button {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .ContactUsForm h2 {
+    width: 450px;
+    display: inline-block;
+  }
+
+  .ContactUsForm input {
+    width: 300px;
+  }
+
+  .ContactUsForm button {
+    width: 125px;
+  }
+}
