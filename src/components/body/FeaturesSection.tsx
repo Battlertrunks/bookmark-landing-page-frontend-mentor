@@ -1,7 +1,10 @@
+import { useState } from "react";
 import BookmarkSection from "./BookmarkSection";
 import "./FeaturesSection.css";
 
 const FeaturesSection = () => {
+  const [tabSelect, setTabSelect] = useState<number>(0);
+
   return (
     <section className="FeaturesSection">
       <h2>Features</h2>
@@ -12,16 +15,16 @@ const FeaturesSection = () => {
       </p>
       <ul>
         <li>
-          <button>Simple Bookmarking</button>
+          <button onClick={() => setTabSelect(0)}>Simple Bookmarking</button>
         </li>
         <li>
-          <button>Speedy Searching</button>
+          <button onClick={() => setTabSelect(1)}>Speedy Searching</button>
         </li>
         <li>
-          <button>Easy Sharing</button>
+          <button onClick={() => setTabSelect(2)}>Easy Sharing</button>
         </li>
       </ul>
-      <BookmarkSection />
+      <BookmarkSection onTab={tabSelect} />
     </section>
   );
 };

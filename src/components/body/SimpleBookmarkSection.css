@@ -50,6 +50,24 @@
   background-color: rgb(248, 248, 248);
 }
 
+.SimpleBookmarkSection .chrome-btn:hover {
+  background-color: #fff;
+  color: hsl(231, 69%, 60%);
+  outline: 2px hsl(231, 69%, 60%) solid;
+}
+
+.SimpleBookmarkSection .firefox-btn:hover {
+  background-color: #fff;
+  color: #222;
+  outline: 2px #222 solid;
+}
+
+.SimpleBookmarkSection .chrome-btn,
+.SimpleBookmarkSection .firefox-btn {
+  transition: 0.1s all ease-out;
+  outline-offset: -2px;
+}
+
 @media only screen and (min-width: 1440px) {
   .SimpleBookmarkSection {
     display: flex;
@@ -65,23 +83,5 @@
   .SimpleBookmarkSection .img-container {
     order: 1;
     flex: 1;
-  }
-
-  .SimpleBookmarkSection .chrome-btn:hover {
-    background-color: #fff;
-    color: hsl(231, 69%, 60%);
-    outline: 2px hsl(231, 69%, 60%) solid;
-  }
-
-  .SimpleBookmarkSection .firefox-btn:hover {
-    background-color: #fff;
-    color: #222;
-    outline: 2px #222 solid;
-  }
-
-  .SimpleBookmarkSection .chrome-btn,
-  .SimpleBookmarkSection .firefox-btn {
-    transition: 0.1s all ease-out;
-    outline-offset: -2px;
   }
 }

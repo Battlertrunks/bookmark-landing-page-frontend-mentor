@@ -17,6 +17,10 @@
   width: 25px;
 }
 
+.Header ul {
+  display: none;
+}
+
 @media only screen and (min-width: 1440px) {
   .Header {
     margin: 0 100px;
@@ -27,6 +31,7 @@
   }
 
   .Header ul {
+    display: block;
     padding: 0;
     list-style: none;
   }

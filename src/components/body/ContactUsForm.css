@@ -27,6 +27,7 @@
 
 .ContactUsForm input {
   width: 100%;
+  max-width: 400px;
   border: none;
 }
 
@@ -38,9 +39,18 @@
   display: block;
   margin: 10px auto;
   width: 100%;
+  max-width: 400px;
   color: #fff;
   border: none;
   background-color: hsl(0, 94%, 66%);
+}
+
+.ContactUsForm button:hover {
+  background-color: #fff;
+  color: hsl(0, 94%, 66%);
+  outline: 2px hsl(0, 94%, 66%) solid;
+  outline-offset: -2px;
+  transition: 0.1s background-color ease-out;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -61,13 +71,5 @@
 
   .ContactUsForm button {
     width: 125px;
-  }
-
-  .ContactUsForm button:hover {
-    background-color: #fff;
-    color: hsl(0, 94%, 66%);
-    outline: 2px hsl(0, 94%, 66%) solid;
-    outline-offset: -2px;
-    transition: 0.1s all ease-out;
   }
 }
