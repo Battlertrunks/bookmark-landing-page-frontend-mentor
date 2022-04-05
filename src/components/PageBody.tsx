@@ -11,7 +11,6 @@ const PageBody = () => {
     <main className="PageBody">
       <SimpleBookmarkSection />
       <FeaturesSection />
-      <BookmarkSection />
       <DownloadSection />
       <FAQSection />
       <ContactUsForm />

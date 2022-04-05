@@ -1,3 +1,4 @@
+import BookmarkSection from "./BookmarkSection";
 import "./FeaturesSection.css";
 
 const FeaturesSection = () => {
@@ -20,6 +21,7 @@ const FeaturesSection = () => {
           <button>Easy Sharing</button>
         </li>
       </ul>
+      <BookmarkSection />
     </section>
   );
 };

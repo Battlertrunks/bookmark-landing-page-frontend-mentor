@@ -27,6 +27,7 @@
 
 .Footer a:hover {
   color: hsl(0, 94%, 66%);
+  transition: 0.1s color ease-out;
 }
 
 @media only screen and (min-width: 1440px) {

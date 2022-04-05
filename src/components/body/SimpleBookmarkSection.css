@@ -82,5 +82,6 @@
   .SimpleBookmarkSection .chrome-btn,
   .SimpleBookmarkSection .firefox-btn {
     transition: 0.1s all ease-out;
+    outline-offset: -2px;
   }
 }
