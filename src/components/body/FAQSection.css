@@ -41,4 +41,10 @@
   .FAQSection li:first-child {
     border-top: 1px rgb(202, 202, 202) solid;
   }
+
+  .FAQSection li:hover {
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+    transition: 0.1s color ease-out;
+  }
 }

@@ -59,4 +59,12 @@
   .DownloadSection li:nth-child(3) {
     margin-top: 125px;
   }
+
+  .DownloadSection button:hover {
+    background-color: #fff;
+    color: hsl(231, 69%, 60%);
+    outline: 2px hsl(231, 69%, 60%) solid;
+    outline-offset: -2px;
+    transition: 0.1s all ease-out;
+  }
 }

@@ -25,6 +25,10 @@
   margin-top: 25px;
 }
 
+.Footer a:hover {
+  color: hsl(0, 94%, 66%);
+}
+
 @media only screen and (min-width: 1440px) {
   .Footer {
     padding: 0 100px;

@@ -23,7 +23,9 @@ const Header = () => {
           <a href="#">Contact</a>
         </li>
         <li>
-          <a href="#">Login</a>
+          <a href="#" className="login">
+            Login
+          </a>
         </li>
       </ul>
     </header>
