@@ -1,0 +1,57 @@
+.DropDownModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: hsla(229, 31%, 21%, 0.918);
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 5px 30px;
+  text-transform: uppercase;
+}
+
+.DropDownModal .logo-close-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.DropDownModal .logo-links-container {
+  display: block;
+  width: 100%;
+}
+
+.DropDownModal .links-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DropDownModal .links-container li {
+  padding: 20px 0;
+  border-top: 1px hsl(229, 8%, 60%) solid;
+  width: 100%;
+  text-align: center;
+}
+
+.DropDownModal a {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.DropDownModal .login {
+  border: 3px #eee solid;
+  border-radius: 10px;
+}

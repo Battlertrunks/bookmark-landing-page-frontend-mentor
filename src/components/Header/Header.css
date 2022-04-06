@@ -1,4 +1,4 @@
-.Header {
+.Header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@
   width: 25px;
 }
 
-.Header ul {
+.Header .nav-btns {
   display: none;
 }
 
@@ -30,7 +30,7 @@
     display: none;
   }
 
-  .Header ul {
+  .Header .nav-btns {
     display: block;
     padding: 0;
     list-style: none;
