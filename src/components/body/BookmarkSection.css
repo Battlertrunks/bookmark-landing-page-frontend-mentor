@@ -5,6 +5,8 @@
 .BookmarkSection .img-container {
   position: relative;
   margin-bottom: 75px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .BookmarkSection img {
@@ -19,10 +21,31 @@
   position: absolute;
   top: 16%;
   right: 20%;
-  left: -200px;
+  left: -100%;
   height: 100%;
   z-index: -1;
   border-radius: 140px;
+}
+
+.BookmarkSection .content-container {
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.BookmarkSection a {
+  background-color: hsl(231, 69%, 60%);
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 35px 25px;
+}
+
+.BookmarkSection a:hover {
+  background-color: #fff;
+  outline: 2px hsl(231, 69%, 60%) solid;
+  color: hsl(231, 69%, 60%);
 }
 
 @media only screen and (min-width: 1440px) {
@@ -37,6 +60,7 @@
   .BookmarkSection .content-container {
     flex: 1;
     text-align: left;
+    margin-top: 0;
   }
 
   .BookmarkSection .blue-background {

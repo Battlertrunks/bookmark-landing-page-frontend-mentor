@@ -30,6 +30,10 @@
   transition: 0.1s color ease-out;
 }
 
+.Footer img {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 1440px) {
   .Footer {
     padding: 0 100px;

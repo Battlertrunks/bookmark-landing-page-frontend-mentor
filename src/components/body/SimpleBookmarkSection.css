@@ -4,6 +4,8 @@
 
 .SimpleBookmarkSection .img-container {
   position: relative;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .SimpleBookmarkSection img {
@@ -77,11 +79,11 @@
   .SimpleBookmarkSection .content-container {
     order: 0;
     margin-right: 100px;
-    flex: 1;
+    flex: 0.5;
   }
 
   .SimpleBookmarkSection .img-container {
     order: 1;
-    flex: 1;
+    flex: 2;
   }
 }

@@ -8,19 +8,22 @@
 .ContactUsForm .opening-text {
   letter-spacing: 5px;
   margin: 5px 0;
+  color: #fff;
 }
 
 .ContactUsForm .title-heading {
   margin: 0;
+  color: #fff;
 }
 
-.ContactUsForm div {
+.ContactUsForm .input-btn-container {
   margin: 0 50px;
   margin-top: 30px;
 }
 
 .ContactUsForm input,
-.ContactUsForm button {
+.ContactUsForm button,
+.ContactUsForm .input-container {
   padding: 15px 0;
   border-radius: 5px;
 }
@@ -32,7 +35,44 @@
 }
 
 .ContactUsForm input::placeholder {
+  padding-left: 15px;
+}
+
+.invalid div input {
+  outline: 2px hsl(0, 94%, 66%) solid;
+}
+
+.ContactUsForm input::placeholder {
   color: rgb(199, 199, 199);
+}
+
+.ContactUsForm .input-container {
+  position: relative;
+}
+
+.ContactUsForm .input-container::before {
+  content: "";
+  background: url("../../bookmark-landing-page-master/images/icon-error.svg");
+  display: inline-block;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin-right: -25px;
+  left: 350px;
+  top: 10px;
+}
+
+.ContactUsForm .input-container::after {
+  content: "Whoops. make sure it's an email";
+  position: relative;
+  text-align: left;
+  max-width: 400px;
+  padding: 10px 1px;
+  display: block;
+  margin: 0 auto;
+  background-color: hsl(0, 94%, 66%);
+  bottom: 0;
 }
 
 .ContactUsForm button {
@@ -66,10 +106,19 @@
   }
 
   .ContactUsForm input {
+    margin-bottom: 0;
     width: 300px;
   }
 
   .ContactUsForm button {
     width: 125px;
+  }
+
+  .ContactUsForm .input-container::before {
+    left: 260px;
+  }
+
+  .ContactUsForm .input-container::after {
+    max-width: 300px;
   }
 }

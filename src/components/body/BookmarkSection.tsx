@@ -40,6 +40,7 @@ const BookmarkSection = ({ onTab }: Props) => {
       <div className="content-container">
         <h2>{featuresDescriptions[onTab].title}</h2>
         <p>{featuresDescriptions[onTab].paragraph}</p>
+        <a href="#">More Info</a>
       </div>
     </section>
   );

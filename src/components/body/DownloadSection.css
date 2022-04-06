@@ -1,5 +1,6 @@
 .DownloadSection {
   margin-bottom: 175px;
+  display: inline-block;
 }
 
 .DownloadSection li {

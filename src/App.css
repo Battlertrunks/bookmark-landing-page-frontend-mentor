@@ -5,4 +5,18 @@
 .App p {
   line-height: 30px;
   font-size: 16px;
+  font-weight: 400;
+  color: #999;
+}
+
+.App h1,
+.App h2,
+.App h3 {
+  font-weight: 500;
+  color: #333;
+}
+
+.App button {
+  font-family: "Rubik", sans-serif;
+  color: #333;
 }
